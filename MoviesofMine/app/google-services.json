@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "912150159839",
+    "project_id": "movies-of-mine",
+    "storage_bucket": "movies-of-mine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912150159839:android:78493e7e53ad98b28da46a",
+        "android_client_info": {
+          "package_name": "com.hugo.moviesofmine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912150159839-mmotsc9ro1g9eq4okfllmpi55f18bl02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hugo.moviesofmine",
+            "certificate_hash": "012357f5f9eda266c7c9a5a190bd02c1a1ce6f70"
+          }
+        },
+        {
+          "client_id": "912150159839-s327enll1mj1heo4pg51grh3r1flj5hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ueOO8-m98vFxXk6sLfR9mhTDbWXUp9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912150159839-s327enll1mj1heo4pg51grh3r1flj5hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

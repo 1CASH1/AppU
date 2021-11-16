@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Movies of Mine</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movi_tite">El Developer del Infierno en Kotlin y mas por pago por evento</string>
+    <string name="movi_language"> Lenguaje: EN</string>
+    <string name="movi_popularity">Popularidad: 3232323123</string>
+    <string name="movi_average">Puntuaje: 6.9</string>
+    <string name="movi_count">Vistas: 289993</string>
+    <string name="optener_galeria">Galeria</string>optener_subir
+    <string name="optener_camara">Camara</string>
+    <string name="optener_subir">Subir</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/ivGvFotos"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/tvGvFotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_below="@id/ivGvFotos"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

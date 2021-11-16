@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_high"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="@dimen/size_picture"
+        android:layout_height="@dimen/size_picture"
+        android:layout_marginStart="@dimen/common_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="@dimen/common_space"
+        android:layout_marginTop="@dimen/common_space"
+        android:layout_marginRight="@dimen/common_space"
+        android:maxLines="2"
+        android:text="@string/movi_tite"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivFoto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="@dimen/width_box_min"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/movi_language"
+        android:textColor="#a9a9a9"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/tvAverage"
+        app:layout_constraintTop_toBottomOf="@+id/tvPopularity"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvPopularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:text="@string/movi_popularity"
+        android:textColor="#a9a9a9"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvAverage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toEndOf="@+id/ivFoto"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvAverage"
+        android:layout_width="@dimen/width_box_min"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/movi_average"
+        android:textColor="#a9a9a9"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCount" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="@dimen/width_box_med"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_space"
+        android:layout_marginBottom="@dimen/common_space"
+        android:text="@string/movi_count"
+        android:textColor="#a9a9a9"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

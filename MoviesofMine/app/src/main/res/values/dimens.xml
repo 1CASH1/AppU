@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_high">150dp</dimen>
+    <dimen name="size_picture">100dp</dimen>
+    <dimen name="common_space">8dp</dimen>
+    <dimen name="width_box_min">120dp</dimen>
+    <dimen name="width_box_med">130dp</dimen>
+</resources>
