@@ -87,7 +87,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage-ktx'
     //Creacion para la solcitud de vistas en fracmentos
     implementation "androidx.fragment:fragment-ktx:1.3.6"
-    ///
-    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    ///Libreria para optener la ubicacion
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
 
 }

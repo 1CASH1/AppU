@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CursoPro/AppU/MoviesofMine/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/CursoPro/AppU/MoviesofMine/app/src/main/res/layout/fragment_maps.xml" value="0.1" />
+        <entry key="..\:/CursoPro/AppU/MoviesofMine/app/src/main/res/layout/fragment_movies.xml" value="0.1" />
         <entry key="..\:/Users/cash1/AndroidStudioProjects/MoviesofMine/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10885416666666667" />
         <entry key="..\:/Users/cash1/AndroidStudioProjects/MoviesofMine/app/src/main/res/drawable/ic_launcher_background.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/cash1/AndroidStudioProjects/MoviesofMine/app/src/main/res/drawable/icon_gallery.xml" value="0.15" />

@@ -1,4 +1,4 @@
-package com.hugo.moviesofmine.view.Fragment
+package com.hugo.moviesofmine.view.fragment
 
 import android.os.Bundle
 import android.util.Log

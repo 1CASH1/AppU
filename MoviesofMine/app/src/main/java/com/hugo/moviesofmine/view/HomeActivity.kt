@@ -14,9 +14,9 @@ import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.navigation.NavigationBarView
 import com.hugo.moviesofmine.R
 import com.hugo.moviesofmine.databinding.ActivityHomeBinding
-import com.hugo.moviesofmine.view.Fragment.GalleryFragment
-import com.hugo.moviesofmine.view.Fragment.MapFragment
-import com.hugo.moviesofmine.view.Fragment.MoviesFragment
+import com.hugo.moviesofmine.view.fragment.GalleryFragment
+import com.hugo.moviesofmine.view.fragment.MapFragment
+import com.hugo.moviesofmine.view.fragment.MoviesFragment
 import com.hugo.moviesofmine.view.onboarding.ViewPargerAdapter
 
 class HomeActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListener {

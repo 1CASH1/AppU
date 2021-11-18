@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/galleryFragment"
-        android:name="com.hugo.moviesofmine.view.Fragment.GalleryFragment"
+        android:name="com.hugo.moviesofmine.view.fragment.GalleryFragment"
         android:label="fragment_gallery"
         tools:layout="@layout/fragment_gallery" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
-        android:name="com.hugo.moviesofmine.view.Fragment.MapFragment"
+        android:name="com.hugo.moviesofmine.view.fragment.MapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map" >
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/moviesFragment"
-        android:name="com.hugo.moviesofmine.view.Fragment.MoviesFragment"
+        android:name="com.hugo.moviesofmine.view.fragment.MoviesFragment"
         android:label="fragment_movies"
         tools:layout="@layout/fragment_movies" >
         <action
